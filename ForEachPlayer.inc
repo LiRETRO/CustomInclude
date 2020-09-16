@@ -9,7 +9,7 @@
 
 #define ForEachPlayer(%0) 		for(new index_%0=0, %0=ConnectedPlayerList[0]; index_%0<ConnectedPlayers; %0=ConnectedPlayerList[++index_%0])
 #define GetConnectedPlayers()   ConnectedPlayers
-
+#define GetPlayers() ConnectedPlayerList
 //------------------------------------------------------------------------------
 
 new ConnectedPlayers;
